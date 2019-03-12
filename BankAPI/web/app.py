@@ -178,4 +178,4 @@ api.add_resource(Transfer, '/transfer')
 api.add_resource(Balance, '/balance')
 
 if __name__ =='__main__':
-    app.run(host='0.0.0.0')
+    app.run(debug=True, host='0.0.0.0', port='5000')
